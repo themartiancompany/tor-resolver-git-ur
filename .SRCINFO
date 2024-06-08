@@ -1,0 +1,21 @@
+pkgbase = tor-resolver-git
+	pkgdesc = Returns onion addresses for hostnames.
+	pkgver = 0.0.0.0.0.0.0.0.0.0.0.0.0.1.r0.g37a823698af026859e2ef5e6e2297d20f3438c33
+	pkgrel = 1
+	url = https://github.com/themartiancompany/tor-resolver
+	arch = any
+	groups = hip
+	groups = hip-git
+	license = AGPL3
+	checkdepends = shellcheck
+	makedepends = make
+	makedepends = curl
+	makedepends = jq
+	depends = libcrash-bash
+	depends = jq
+	provides = tor-resolver=0.0.0.0.0.0.0.0.0.0.0.0.0.1.r0.g37a823698af026859e2ef5e6e2297d20f3438c33
+	conflicts = tor-resolver
+	source = tor-resolver.tar.gz::https://github.com/themartiancompany/tor-resolver/archive/refs/heads/master.tar.gz
+	sha256sums = SKIP
+
+pkgname = tor-resolver-git
